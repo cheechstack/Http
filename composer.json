@@ -1,8 +1,9 @@
 {
     "name": "cheechstack/http",
-    "description": "Simple classes for handling Http request and responses.",
+    "description": "HTTP layer for the CheechStack framework",
     "type": "library",
     "version" : "0.1.0",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Cheechstack\\Http\\": "src/"
@@ -17,7 +18,7 @@
             "email": "kyle.beasley17@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
         "php" : "^8.4"
     },
