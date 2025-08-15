@@ -1,0 +1,27 @@
+{
+    "name": "cheechstack/http",
+    "description": "Simple classes for handling Http request and responses.",
+    "type": "library",
+    "version" : "0.1.0",
+    "autoload": {
+        "psr-4": {
+            "Cheechstack\\Http\\": "src/"
+        },
+        "classmap": [
+            "src/"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Kyle Beasley",
+            "email": "kyle.beasley17@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php" : "^8.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^12"
+    }
+}
