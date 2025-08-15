@@ -26,6 +26,21 @@ class Response {
         //$view = View::locate($viewTemplate);
         //$body = $view->render();
 
+        // tmp body value
+        $body = <<<EOT
+        <html lang="en">
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title>Temp Title</title>
+        </head>
+        <body>
+            <h1>Hello World! This is Cheech's "Response" class.</h1>
+        </body>
+        </html>
+        EOT;
+
+
         // build the headers for a html text response
         $headers = array();
         $headers['Content-Type'] = 'text/html';
